@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",       
+    "dev": "nodemon app.js"  
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +24,6 @@
     "uuid": "^11.0.4"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9" 
   }
 }

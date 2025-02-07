@@ -36,6 +36,10 @@ app.use((req, res, next) => {
 app.use('/api/places', placesRoutes);
 app.use('/api/users', usersRoutes);
 
+app.get("/", (req, res) => {
+  res.json({ message: "Server is running! Welcome to the Place Sharing API." });
+});
+
 // 404 handler
 app.use((req, res, next) => {
   const error = new HttpError('Could not find this route.', 404);

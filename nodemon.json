@@ -1,2 +1,9 @@
 {
+    "env": {
+        "DB_USER": "Shrihari",
+        "DB_PASSWORD": "KingMessi10",
+        "DB_NAME": "test",
+        "JWT_KEY": "supersecret_dont_share"
+        
+    }
 }
